@@ -39,6 +39,9 @@
 
 ### Diseño de base de datos
 
+![image](https://user-images.githubusercontent.com/50781004/169900621-21e1f485-b029-491a-8b44-4a2b29840c12.png)
+
+
 ### Autor
 
 Jessica Vargas
