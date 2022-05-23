@@ -1,31 +1,42 @@
-#Plenna test
-######Prueba técnica backend
+# Plenna test
 
-###Tecnologías
-######Node.js
-######Express
-######Mongoose
-######Base de datos : Mongo DB Atlas
-######Dotenv
-######Cors
+###### Prueba técnica backend
 
-###Requerimientos
-######Node
-######Git
+### Tecnologías
 
-###Variables de entorno
+###### Node.js
+
+###### Express
+
+###### Mongoose
+
+###### Base de datos : Mongo DB Atlas
+
+###### Dotenv
+
+###### Cors
+
+### Requerimientos
+
+###### Node
+
+###### Git
+
+### Variables de entorno
+
 $ DB_USER
 $ DB_PASSWORD
 $ DB_HOST
 $ DB_NAME
 
-###Despliegue AWS
+### Despliegue AWS
+
 $ http://plenna-env.eba-ecxfypep.us-east-1.elasticbeanstalk.com/patients
 $ Elastick Beanstalk
 $ Codepipeline
 
-###Diseño de base de datos
+### Diseño de base de datos
 
-image.png
-###Autor
+### Autor
+
 Jessica Vargas
