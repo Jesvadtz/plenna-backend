@@ -23,17 +23,19 @@
 ###### Git
 
 ### Variables de entorno
-
-$ DB_USER
-$ DB_PASSWORD
-$ DB_HOST
-$ DB_NAME
+<ul>
+  <li>DB_USER</li>
+  <li>DB_PASSWORD</li>
+  <li>DB_HOST</li>
+  <li>DB_NAME</li>
+</ul>
 
 ### Despliegue AWS
-
-$ http://plenna-env.eba-ecxfypep.us-east-1.elasticbeanstalk.com/patients
-$ Elastick Beanstalk
-$ Codepipeline
+<ul>
+ <li>http://plenna-env.eba-ecxfypep.us-east-1.elasticbeanstalk.com/patients</li>
+ <li>Elastick Beanstalk</li>
+ <li>Codepipeline</li>
+</ul>
 
 ### Diseño de base de datos
 
