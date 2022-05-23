@@ -1,8 +1,20 @@
 const express = require("express");
+const useCaseAvailability = require("../usesCases/availability");
 const router = express.Router();
 
-router.get("/", (request, response) => {
+router.get("/", async (request, response) => {
   try {
+    const schedule = request.body;
+    const availabilities = await useCaseAvailability.getLocationAvailability(
+      schedule
+    );
+    response.json({
+      success: true,
+      message: "",
+      data: {
+        availabilities: availabilities,
+      },
+    });
   } catch (error) {
     response.json({
       success: false,
