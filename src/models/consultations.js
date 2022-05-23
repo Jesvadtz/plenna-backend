@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const consultationsSchema = new mongoose.Schema(
+const consultationSchema = new mongoose.Schema(
   {
     bloodPressure: {
       type: Number,
@@ -66,11 +66,15 @@ const consultationsSchema = new mongoose.Schema(
       minlength: 1,
       maxlength: 10000,
     },
+    patient: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "patient",
+    },
   },
   {
     timestamps: true,
   }
 );
 
-const model = mongoose.model("consultations", consultationsSchema);
+const model = mongoose.model("consultations", consultationSchema);
 module.exports = model;

@@ -5,13 +5,11 @@ function getAllPatients() {
 }
 
 function getPatient(idPatient) {
-  return Patient.findById(idPatient)
-    .populate("medicalHistory", { disease: 1, familyBackground: 1 })
-    .populate("medicalConsultations", {
-      examination: 1,
-      diagnosis: 1,
-      recipe: 1,
-    });
+  return Patient.findById(idPatient).populate("consultations", {
+    examination: 1,
+    diagnosis: 1,
+    recipe: 1,
+  });
 }
 
 async function createPatient(dataPatient) {

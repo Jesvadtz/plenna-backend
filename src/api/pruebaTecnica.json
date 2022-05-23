@@ -1,0 +1,98 @@
+[
+  {
+    "slotdates": [
+      {
+        "date": "2022-05-21T00:00:00Z"
+      },
+      {
+        "date": "2022-05-22T00:00:00Z"
+      },
+      {
+        "slots": [
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T09:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T10:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T11:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T12:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T13:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T14:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T16:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "idDoctor": "45",
+    "idClinic": "23578"
+  },
+  {
+    "slotdates": [
+      {
+        "date": "2022-05-21T00:00:00Z"
+      },
+      {
+        "date": "2022-05-22T00:00:00Z"
+      },
+      {
+        "slots": [
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T09:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T10:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T11:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T12:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T13:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T14:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T16:00:00Z"
+          },
+          {
+            "sourceEvent": "23734149",
+            "dateTime": "2022-05-23T17:00:00Z"
+          }
+        ]
+      }
+    ],
+    "idDoctor": "46",
+    "idClinic": "23578"
+  }
+]
